@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34312777591",
+    "project_id": "sugarcrash1-0",
+    "storage_bucket": "sugarcrash1-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34312777591:android:1ccf12df10b98bee8abb72",
+        "android_client_info": {
+          "package_name": "com.example.sugarcrash10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34312777591-emvm649t0brslt4968ovm7vkhi852ifk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBupiLPanOQj6ZzUx3mOT1Joue1aC1Y1cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34312777591-emvm649t0brslt4968ovm7vkhi852ifk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

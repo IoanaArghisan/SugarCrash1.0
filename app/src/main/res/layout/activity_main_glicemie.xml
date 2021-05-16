@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9f2e6"
+    tools:context=".MainActivityGlicemie">
+
+    <Button
+        android:id="@+id/glicemie"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Interpretare valori glicemie"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:backgroundTint=" #cc0000"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/x_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_alignEnd="@+id/glicemie"
+        android:layout_alignStart="@+id/glicemie"
+        android:layout_below="@+id/glicemie"
+        android:background="#cdc9c9"
+        android:ems="10"
+        android:hint="numarul zilei din an"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/y_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/x_value"
+        android:layout_alignStart="@+id/x_value"
+        android:layout_below="@+id/x_value"
+        android:layout_marginTop="33dp"
+        android:background="#cdc9c9"
+        android:ems="10"
+        android:hint="valoarea glicemiei"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/adauga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y_value"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="Adauga"
+
+        />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphView"
+        android:layout_below="@+id/adauga"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>

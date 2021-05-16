@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d9f2e6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityInformatii">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:textColor=" #cc0000"
+        android:text="Informații"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"
+       android:textAppearance="@color/black"
+        android:text="  Diabetul zaharat este cea mai des întâlnită boală a sistemului endocrin și se declanșează atunci când în organism cantitatea de insulină secretată nu este cea optimă sau când celulele periferice nu răspund la acțiunea sa (insulina este un hormon ce participă la micșorarea concentrației glucozei din sânge).
+                            \n Această afecțiune produce tulburări la nivelul întregului metabolism și, în timp, poate afecta funcționarea diverselor organe din corp.\n Aplicația SugarCrash vine în ajutorul dumneavoastră cu idei de rețete sănătoase, grafic cu valorile glicemiei și atenționări pentru consumul de apă. \n\n                  Sănătate și spor!!! "
+        android:layout_centerInParent="true"
+        android:justificationMode="inter_word"/>
+
+</RelativeLayout>
